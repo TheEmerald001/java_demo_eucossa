@@ -7,9 +7,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.example.learning.dao.StudentRespository;
 import com.example.learning.entities.Student;
 
-import dao.StudentRespository;
+
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
