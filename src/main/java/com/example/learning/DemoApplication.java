@@ -38,7 +38,7 @@ public class DemoApplication implements CommandLineRunner {
 		// Update
 		logger.info("Update 10001 -> {}", repository.save(new Student(10001L, "Name-Updated", "New-Passport")));
 
-		repository.deleteById(10002L);
+		//repository.deleteById(10002L);
 
 		logger.info("All users 2 -> {}", repository.findAll());
 

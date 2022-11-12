@@ -20,4 +20,7 @@ public class UserServiceImpl  implements UserService{
 		return userDao.getUserDetails();
 	}
 
+	@Override
+	public void createUser(UserDetails userDetails) { userDao.createUser(userDetails);}
+
 }

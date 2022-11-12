@@ -24,6 +24,10 @@ public class UserDaoImpl implements UserDao {
 		
 		return criteria.list();
 	}
+
+	public void createUser(UserDetails userDetails){
+		entityManager.persist(userDetails);
+	}
 	
 	
 	

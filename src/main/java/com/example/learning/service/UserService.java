@@ -15,4 +15,6 @@ public interface UserService {
 	
 	List<UserDetails> getUserDetails();
 
+	public void createUser(UserDetails userDetails);
+
 }
